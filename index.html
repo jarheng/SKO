@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+
+    <!-- p5.js libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <ul>
+                <li class="main-header">
+                    <a href="#case-studies">Case Studies</a>
+                    <ul class="subheaders">
+                        <li><a href="#john-warwicker">John Warwicker</a></li>
+                        <li><a href="#dark-mofo">Dark Mofo</a></li>
+                    </ul>
+                </li>
+                <li class="main-header">
+                    <a href="#reflections">Reflections</a>
+                    <ul class="subheaders">
+                        <li><a href="#paper-prototype">Paper Prototype</a></li>
+                        <li><a href="#major-project">Major Project</a></li>
+                    </ul>
+                </li>
+                <li class="main-header">
+                    <a href="#methods-techniques">Methods and Techniques</a>
+                    <ul class="subheaders">
+                        <li><a href="#arrays">Arrays</a></li>
+                        <li><a href="#string-methods">String Methods</a></li>
+                        <li><a href="#for-loops">For Loops</a></li>
+                        <li><a href="#if-else-statements">If-else Statements</a></li>
+                        <li><a href="#dictionaries">Dictionaries</a></li>
+                    </ul>
+                </li>
+                <li><a href="#class-activities">Class Activities</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content">
+            <section id="case-studies">
+                <h1>Case Studies</h1>
+
+                <h2 id="john-warwicker">John Warwicker</h2>
+                <p>
+                    John Warwicker’s website is a reflection of his creative identity, blending minimalist
+                    design with bold visual elements. The site stands out with its striking use of typography
+                    and colour. Bold fonts paired with a restrained colour palette create a dynamic, yet simple
+                    layout. The website is designed to invite exploration, with a focus on space and balance,
+                    ensuring that each element, whether text or image, commands attention without overwhelming
+                    the user.
+                </p>
+                <p>
+                    The site takes a more experimental approach. Rather than following traditional website
+                    structures, it encourages users to engage with content in a non-linear fashion.
+                </p>
+                <p>
+                    From a coding perspective, the simplicity of the design belies the complexity of the site’s
+                    functionality. The site likely uses a grid-based framework; the interactive elements, such
+                    as smooth animations and hover effects, are likely powered by JavaScript, providing fluid,
+                    intuitive user interactions that enhance the overall experience.
+                </p>
+                <p>
+                    Ultimately, Warwicker’s website strikes a balance between creativity and usability. It feels
+                    personal and artistic, with each design decision contributing to the overall aesthetic.
+                    The coding silently supports this vision, ensuring fluidity and responsiveness across devices.
+                </p>
+
+                <!-- Images Section -->
+                <div class="images">
+                    <img src="data/johnwarwicker1.png" alt="John Warwicker Website Preview 1">
+                    <img src="data/johnwarwicker2.png" alt="John Warwicker Website Preview 2">
+                </div>
+
+                <!-- Citation -->
+                <p class="citation">
+                    Citation: john warwicker. (n.d.). John Warwicker.
+                    <a href="https://www.johnwarwicker.com/" target="_blank">https://www.johnwarwicker.com/</a>
+                </p>
+
+                <h2 id="dark-mofo">Dark Mofo</h2>
+                <p>
+                    Exploring the Dark Mofo website, I was immediately drawn in by its bold, moody aesthetic.
+                    The use of intense red and black tones, paired with striking imagery and large fonts,
+                    perfectly captures the festival’s dark, immersive nature. The design is minimal yet powerful,
+                    with small details like background transitions adding to the eerie atmosphere. Despite the
+                    intensity of the visuals, the site maintains a sense of balance, ensuring readability and usability.
+                </p>
+                <p>
+                    The navigation is surprisingly straightforward, which I found to be a smart choice. It contrasts
+                    with the experimental design, making the site easy to explore while keeping the user grounded.
+                    This allows the dramatic visuals to be the main focus without compromising functionality.
+                </p>
+                <p>
+                    From a coding perspective, despite the heavy visual elements, the site performs smoothly across
+                    devices, suggesting good coding practices. I appreciated how well the design and technical aspects
+                    worked together, creating an engaging, seamless experience.
+                </p>
+                <p>
+                    Overall, the Dark Mofo website blends bold design with solid technical performance, aligning
+                    perfectly with the festival’s experimental identity while delivering a user-friendly experience.
+                </p>
+
+                <div class="images">
+                    <img src="data/darkmofo1.png" alt="Dark Mofo Website Preview 1">
+                    <img src="data/darkmofo2.png" alt="Dark Mofo Website Preview 2">
+                </div>
+
+                <p class="citation">
+                    Citation: FAQ | Dark Mofo. (n.d.). Dark Mofo.net.au.
+                    <a href="https://darkmofo.net.au/info" target="_blank">https://darkmofo.net.au/info</a>
+                </p>
+            </section>
+
+            <section id="reflections">
+                <h1>Reflections</h1>
+                <h2 id="paper-prototype">Paper Prototype</h2>
+                <p>
+                    I chose the phrase ‘the net is anarchic and subversive’ and made a concrete poem of it.
+                    As seen, the visual arrangement of the words convey meaning. The words cascade and shift to create
+                    a chaotic and unpredictable pattern, reflecting the chaotic nature of the internet. The phrase
+                    "the net is anarchic and subversive" also suggests that the internet is a space of disorder and
+                    disruption. My paper prototype is meant to represent these ideas visually and interactively. The
+                    prototype
+                    includes a piece of paper with a majority of the phrase written down, along with strips of paper
+                    weaved into it to create moving elements that ‘reveal’ the hidden words when interacted with. This
+                    is to simulate the unpredictable and fluid nature of the internet. There is a mouse that the user
+                    can
+                    use to move a cursor to interact with the blue and green buttons to ‘reveal’ the hidden words.
+                </p>
+                <p>
+                    Reflecting on my experience with paper prototypes, I’ve realised just how valuable they are in the
+                    design
+                    process. Working with something as simple as paper allowed me to strip back all the bells and
+                    whistles
+                    and really focus on the core functionality of my design. It forced me to think about the user’s
+                    journey
+                    in a way that digital tools sometimes overshadow with their complexity. I was able to quickly sketch
+                    ideas, test them, and then easily make changes without worrying about the technical side of things.
+                    This freedom to explore and fail early on has been a game changer.
+                </p>
+                <p>
+                    One of the biggest takeaways for me was how paper prototypes encouraged rapid iteration. In a matter
+                    of
+                    minutes, I could completely rework the layout or flow based on feedback or a fresh idea. The
+                    simplicity
+                    of the medium made it easy to tweak things, which really opened up more opportunities for
+                    creativity.
+                    It taught me not to get too attached to any one design early in the process, which in turn made me
+                    more
+                    open to new ideas and directions.
+                </p>
+                <p>
+                    User testing with paper prototypes has been especially eye-opening. Seeing how people interact with
+                    a
+                    design in its most basic form showed me where potential problems might arise, even before moving to
+                    a
+                    digital version. It’s one thing to imagine how users might behave, but quite another to watch them
+                    fumble
+                    or navigate naturally through the prototype. I learned how crucial it is to gather user feedback
+                    early
+                    that I might have overlooked if I went straight to a high-fidelity design.
+                </p>
+                <p>
+                    Overall, working with paper prototypes has reinforced the importance of focusing on functionality
+                    first.
+                    It’s so easy to get caught up in the aesthetics of a project, but these prototypes reminded me that
+                    if the
+                    core experience doesn’t work, no amount of visual polish can save it. This approach has made me a
+                    more
+                    thoughtful, user-centred designer, and I’ll carry these lessons forward.
+                </p>
+
+                <div class="images">
+                    <img src="data/paper1.jpg" alt="Paper Prototype Horizontal" class="portrait-pictures">
+                    <div class="portrait-pictures">
+                        <img src="data/paper2.jpg" alt="Paper Prototype Portrait 1">
+                        <img src="data/paper3.jpg" alt="Paper Prototype Portrait 2">
+                    </div>
+                </div>
+
+                <p class="citation">
+                    Citation: Wallbank, J. (1999, March 1). LOWTECH MANIFESTO. LOWTECH MANIFESTO.
+                    <a href="http://www.lowtech.org/projects/n5m3/"
+                        target="_blank">http://www.lowtech.org/projects/n5m3/</a>
+                </p>
+
+                <h2 id="major-project">Major Project</h2>
+                <p>
+                    My webpage is an interactive visual experience that is further developed based on the quote,
+                    "The net is anarchic and subversive", which was the text for my paper prototype. The design
+                    dynamically engages
+                    users by presenting a blend of chaotic and orderly elements, reflecting the unpredictable and
+                    free-flowing nature
+                    of the internet. Users are invited to explore the webpage by interacting with various elements such
+                    as clicking,
+                    hovering, and moving the mouse which causes letters to move or fly out, offering a sense of motion
+                    and transformation.
+                </p>
+                <p>
+                    The visual focus shifts between two distinct background images featuring iconic characters (Jhin and
+                    Yasuo) from
+                    the game League of Legends, which can be toggled by user action. Additionally, certain keywords in
+                    the displayed
+                    quote, "anarchic" and "subversive," trigger deeper insights by revealing contextual definitions. The
+                    typography is
+                    randomised, with text sizes, fonts, and colours varying across letters, adding a sense of creative
+                    chaos in a way.
+                </p>
+                <p>
+                    In building this webpage, my goal was to reflect on the dual nature of the internet as both a space
+                    of freedom and
+                    disruption. The quote, "The net is anarchic and subversive," encapsulates the tension between the
+                    endless opportunities
+                    of online spaces and the challenge of order in a seemingly chaotic environment. Through the
+                    interactive elements,
+                    I wanted users to experience a sense of this unpredictability such as letters scattering upon
+                    hovering and then
+                    realigning, while important words remain grounded, representing the core ideas in the chaos.
+                </p>
+                <p>
+                    This project allowed me to explore the use of arrays, conditional statements, and interactive
+                    elements in JavaScript
+                    to manipulate visuals in real-time. One of the most rewarding aspects was the implementation of
+                    mouse events to trigger
+                    animations, such as letters flying out when interacted with. I feel this gave the webpage a fun but
+                    controlled interaction,
+                    reacting to user behaviour and enhancing the immersive experience.
+                </p>
+                <p>
+                    The choice of background images and the thematic connection to characters like Jhin and Yasuo from
+                    League of Legends
+                    offered a nod to chaos and order. Jhin being methodical and Yasuo representing freedom, symbolising
+                    the complex dynamic
+                    I wanted to capture. This project also deepened my understanding of balancing aesthetics with
+                    functionality, ensuring the randomness of font changes did not interfere with readability but rather
+                    enhanced the chaotic essence of the page.
+                </p>
+                <p>
+                    In conclusion, the webpage's structure serves as both an artistic and coding exercise, pushing me to
+                    think about how visuals, interactivity, and user engagement can all merge to convey a thematic
+                    message.
+                </p>
+
+                <div class="images">
+                    <img src="data/jhinPage.png" alt="Jhin Page Screenshot">
+                    <img src="data/yasuoPage.png" alt="Yasuo Page Screenshot">
+                </div>
+
+                <!-- Subheading: Code Highlights -->
+                <h3>Code Highlights</h3>
+                <h4>Flying Letters</h4>
+
+                <div class="images">
+                    <img src="data/flyingLetters1.jpg" alt="Flying Letters Example 1">
+                    <img src="data/flyingLetters2.jpg" alt="Flying Letters Example 2">
+                    <img src="data/flyingLetters3.jpg" alt="Flying Letters Example 3">
+                </div>
+
+                <p class="comment">
+                    Each letter reacts to user interaction. When hovered over by the cursor, the letter flies outward.
+                </p>
+
+                <h4>Keywords</h4>
+
+                <div class="images">
+                    <img src="data/keyWord1.jpg" alt="Keyword 'Anarchic' Interaction Example">
+                    <img src="data/keyWord2.jpg" alt="Keyword 'Subversive' Interaction Example">
+                </div>
+
+                <p class="comment">
+                    These code snippets demonstrate how the keywords <strong>'anarchic'</strong> and
+                    <strong>'subversive'</strong> interact when clicked. Upon interaction, the selected word is brought
+                    to the center of the page, and its definition is displayed.
+                </p>
+
+                <h4>Background Images</h4>
+
+                <div class="images">
+                    <img src="data/bgImg1.jpg" alt="Background Image 1">
+                    <img src="data/bgImg2.jpg" alt="Background Image 2">
+                    <img src="data/bgImg3.jpg" alt="Background Image 3">
+                </div>
+
+                <p class="comment">
+                    These images show how the background images are configured and aligned to create visual balance.
+                </p>
+
+                <h4>Character Toggles</h4>
+
+                <div class="images">
+                    <img src="data/toggle1.jpg" alt="Character Toggle Example 1">
+                    <img src="data/toggle2.jpg" alt="Character Toggle Example 2">
+                    <img src="data/toggle3.jpg" alt="Character Toggle Example 3">
+                </div>
+
+                <p class="comment">
+                    This logic showcases how the character toggle works. By clicking on the character's respective
+                    weapon at the top of the screen, the character swaps to the corresponding one, and the weapon image
+                    updates accordingly.
+                </p>
+
+                <h4>Word Recall</h4>
+
+                <div class="images">
+                    <img src="data/wordRecall1.jpg" alt="Word Recall Example 1">
+                    <img src="data/wordRecall2.jpg" alt="Word Recall Example 2">
+                    <img src="data/wordRecall3.jpg" alt="Word Recall Example 3">
+                </div>
+
+                <p class="comment">
+                    In this logic, when double-clicked, all the letters fly back to their original location, effectively
+                    resetting the layout. Additionally, the 'recall' image briefly appears during the double-click
+                    interaction, providing visual feedback for the reset action.
+                </p>
+
+                <h4>Jumping Fonts</h4>
+
+                <div class="images">
+                    <img src="data/jumpingFonts1.jpg" alt="Jumping Fonts Example 1">
+                    <img src="data/jumpingFonts2.jpg" alt="Jumping Fonts Example 2">
+                </div>
+
+                <p class="comment">
+                    This feature showcases how the fonts dynamically change in size, color, and style, creating a
+                    playful and chaotic visual effect. The constant variation gives an impression of unpredictability,
+                    enhancing the interactive experience.
+                </p>
+            </section>
+
+            <section id="methods-techniques">
+                <h1>Methods and Techniques</h1>
+
+                <h4 id="arrays">Arrays</h4>
+                <div class="images">
+                    <img src="data/array.jpg" alt="Array Example">
+                </div>
+                <p>
+                    In the context of the website I’ve been working on, arrays have been incredibly useful for
+                    organising and manipulating data. For instance, in the code, I used arrays to store letters,
+                    making it easier to manage and manipulate each character individually. The flexibility of arrays
+                    allowed me to keep track of every letter's position, size, and colour, ensuring a smooth display
+                    and interaction for users.
+                </p>
+                <p class="citation">
+                    Citation: w3schools. (2019). JavaScript Arrays. W3schools.com.
+                    <a href="https://www.w3schools.com/js/js_arrays.asp" target="_blank">
+                        https://www.w3schools.com/js/js_arrays.asp
+                    </a>
+                </p>
+
+                <h4 id="string-methods">String Manipulation</h4>
+                <div class="images">
+                    <img src="data/forString.jpg" alt="String Manipulation and For Loops Example">
+                </div>
+                <p>
+                    String manipulation played a crucial role, especially when splitting the initial quote into
+                    individual
+                    words and characters. By using the <code>.split()</code> function, I could break down a string into
+                    manageable
+                    pieces, which allowed for more control over how each word and letter is displayed on the canvas.
+                    This manipulation
+                    of text enabled me to create dynamic effects that react to user input, adding an interactive element
+                    to the project.
+                </p>
+                <p class="citation">
+                    Citation: JavaScript String Methods. (n.d.). Www.w3schools.com.
+                    <a href="https://www.w3schools.com/js/js_string_methods.asp" target="_blank">
+                        https://www.w3schools.com/js/js_string_methods.asp
+                    </a>
+                </p>
+
+                <h4 id="for-loops">For Loops</h4>
+                <p>
+                    For loops were indispensable throughout the project. They allowed me to iterate over each letter and
+                    word,
+                    applying transformations and animations efficiently. Whether I was arranging letters on the screen
+                    or updating
+                    their positions in real time, the loops ensured that the code was both concise and scalable,
+                    allowing for easy
+                    adjustments as the project evolved.
+                </p>
+                <p class="citation">
+                    Citation: W3Schools. (2019). JavaScript for Loop. W3schools.com.
+                    <a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">
+                        https://www.w3schools.com/js/js_loop_for.asp
+                    </a>
+                </p>
+
+                <h4 id="if-else-statements">If-Else Statements</h4>
+                <div class="images">
+                    <img src="data/ifelse.jpg" alt="If-Else Statements Example">
+                </div>
+                <p>
+                    The use of if-else statements was key in making decisions within the code. For example, when users
+                    click or hover
+                    over specific letters, the if-else statements helped determine whether to trigger certain
+                    animations, such as making
+                    letters fly out of position or centering a particular word. This control logic added depth to the
+                    interaction, making
+                    the website more responsive to user actions.
+                </p>
+                <p class="citation">
+                    Citation: w3schools. (2019). JavaScript if else else if. W3schools.com.
+                    <a href="https://www.w3schools.com/js/js_if_else.asp" target="_blank">
+                        https://www.w3schools.com/js/js_if_else.asp
+                    </a>
+                </p>
+
+                <h4 id="dictionaries">Dictionaries</h4>
+                <div class="images">
+                    <img src="data/dictionary.jpg" alt="Dictionaries Example">
+                </div>
+                <p>
+                    Lastly, dictionaries were useful for mapping words to their definitions, as seen in the
+                    <code>newQuotes</code> object.
+                    This allowed me to quickly reference and display the meaning of key words like "anarchic" and
+                    "subversive" when users
+                    interact with them. Using a dictionary kept the code clean and organised, making it easy to manage
+                    and expand the content
+                    over time.
+                </p>
+                <p class="citation">
+                    Citation: W3schools. (2018). Python Dictionaries. W3schools.com.
+                    <a href="https://www.w3schools.com/python/python_dictionaries.asp" target="_blank">
+                        https://www.w3schools.com/python/python_dictionaries.asp
+                    </a>
+                </p>
+            </section>
+
+
+            <section id="class-activities">
+                <h1>Class Activities</h1>
+
+                <h4>Studio Arcade</h4>
+                <div class="portrait-pictures">
+                    <img src="data/studio1.jpg" alt="Studio Arcade Prototype Image 1">
+                    <img src="data/studio2.jpg" alt="Studio Arcade Prototype Image 2">
+                </div>
+                <p>
+                    During week 1 of the studio class, my group and I created a paper arcade game prototype, inspired by
+                    the classic
+                    Pac-Man arcade game. The project involved cutting out shapes to form the maze, movable characters,
+                    and the iconic
+                    elements of Pac-Man and the ghosts. The interactivity was achieved through sliding mechanisms that
+                    allowed the
+                    characters to move within the maze, giving a sense of gameplay and movement without the need for
+                    digital components.
+                    This tangible, hands-on creation captured the essence of the arcade game in a simplified form,
+                    encouraging players to
+                    engage physically with the elements. In our studio, we gathered around the prototype, observing how
+                    people interacted
+                    with it, and it was fascinating to see how such a simple model could spark discussions on movement,
+                    user experience,
+                    and design.
+                </p>
+                <p>
+                    This experience reinforced the value of paper prototypes in the design process. By constructing a
+                    low-fidelity version
+                    of a concept, we were able to quickly test out ideas, understand spatial relationships, and gather
+                    feedback from others.
+                    Paper prototypes, like this arcade game, serve as a critical tool in the early stages of design.
+                    They allow for iterative
+                    adjustments without the need for costly or time-consuming digital development. By working with
+                    physical materials, you
+                    can better understand scale, user interaction, and how elements might function in real life. This
+                    form of prototyping
+                    also facilitates collaboration, as others can easily visualise and interact with the concept,
+                    offering insights and feedback
+                    that are vital to refining the design. It’s a playful and practical way to explore the possibilities
+                    before committing to
+                    more complex mediums.
+                </p>
+
+                <h4>Interpret Drawings As Machines</h4>
+                <div class="portrait-pictures">
+                    <img src="data/interpret1.jpg" alt="Interpret Drawings Example 1">
+                    <img src="data/interpret2.jpg" alt="Interpret Drawings Example 2">
+                </div>
+                <p>
+                    During week 2 of the studio class, we engaged with the idea of interpreting drawings as machine
+                    instructions, translating
+                    visual elements into a set of precise commands that could be understood by a machine. The process
+                    began with a simple sketch
+                    of a face made up of geometric shapes, triangles, rectangles, and circles, along with annotations
+                    specifying the mathematical
+                    instructions necessary for their creation. The notations included details such as the x and y
+                    coordinates, the sizes of the
+                    shapes, and reflections along the axis. This approach pushed me to think of drawings not only as
+                    visual representations but
+                    also as codes that can be executed step by step to create a digital equivalent.
+                </p>
+                <p>
+                    This exercise highlighted how design and code often intersect. While design typically relies on
+                    intuition, creativity, and
+                    a sense of form, coding demands precision, logic, and structure. In this case, the drawing had to be
+                    broken down into a series
+                    of logical steps, much like how a computer program operates. The process involved analysing each
+                    shape in terms of its
+                    dimensions, its relation to other shapes, and its positioning in a Cartesian coordinate system. By
+                    doing so, I could essentially
+                    “instruct” a machine to replicate the drawing with exact accuracy.
+                </p>
+                <p>
+                    What I found particularly interesting was how this exercise made me more aware of the importance of
+                    clarity and precision in
+                    both design and code. When creating visual work by hand, it’s easy to overlook the fine details, but
+                    when those details must
+                    be communicated as machine-readable instructions, every line and position matters. This taught me to
+                    view design through a more
+                    technical lens, where even the smallest change can affect the outcome.
+                </p>
+
+                <h4>Concrete Poetry</h4>
+                <div class="images">
+                    <img src="data/concrete.jpg" alt="Concrete Poetry Example">
+                </div>
+                <p>
+                    During week 3 of my studio class, we experimented with concrete poetry. I chose to focus on the
+                    phrase "An error has been detected
+                    in your consciousness. All source-codes are corrupt. Continue?" This text represents a blend of
+                    digital and human elements, using the
+                    language of programming and error detection to metaphorically comment on the nature of human
+                    awareness and thought. The layout of the
+                    text reinforces the sensation of an error or disruption, with the repetition of "consciousness" and
+                    "corrupt" driving home the theme
+                    of malfunction. In this way, the work invites reflection on our increasingly intertwined
+                    relationships with technology and its impact
+                    on our perception of self.
+                </p>
+                <p>
+                    The concept of concrete poetry ties closely to design in its ability to use form to communicate
+                    meaning. The way the words are arranged
+                    on the page is just as important as the words themselves, merging visual design with literary
+                    content. This exercise pushed me to think
+                    about how text can transcend its linguistic function and become a visual element in design. In this
+                    case, the repetition of phrases and
+                    the compact, uniform style reflect both the rigidity and fragility of digital systems and how those
+                    same ideas might apply to human cognition.
+                    This merging of code and consciousness creates a poetic critique of how dependent we have become on
+                    technology, and how that dependency might
+                    be affecting our mental and emotional frameworks.
+                </p>
+
+                <h4>Instructional Drawings and Crazy 8</h4>
+
+                <div class="portrait-pictures">
+                    <img src="data/drawings1.jpg" alt="Instructional Drawings 1">
+                    <img src="data/drawings2.jpg" alt="Instructional Drawings 2">
+                </div>
+                <div class="images">
+                    <img src="data/drawings3.jpg" alt="Instructional Drawings 3">
+                </div>
+                <p>
+                    During week 4 of my studio class, we did instructional-based drawings as a method to simulate how we
+                    input instructions when coding.
+                    The experience was eye-opening, as it involved translating visual ideas into clear, step-by-step
+                    directives that could be interpreted
+                    both by a machine and a human. This exercise challenged me to think about clarity and
+                    precision—qualities that are essential in both
+                    design and coding. In the same way that machines require exact commands, instructional drawings
+                    necessitate well-thought-out details
+                    that leave little room for ambiguity. I found myself questioning not just how I draw, but how I
+                    communicate a process visually, ensuring
+                    that someone else could replicate the steps without confusion.
+                </p>
+                <p>
+                    Simultaneously, we worked on crazy 8 ideas, which encouraged rapid brainstorming and ideation. In
+                    just eight minutes, we had to come up
+                    with eight different ideas, pushing the limits of creativity and quick thinking. The constraint of
+                    time forced me to let go of perfectionism
+                    and embrace spontaneity, a valuable reminder that not every idea needs to be fully formed in the
+                    early stages. This fast-paced ideation
+                    process is akin to how coding sometimes involves trial and error, where you test out ideas, discard
+                    the ones that don’t work, and refine
+                    the ones that do.
+                </p>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="SKO.js"></script>
+</body>
+
+</html>
